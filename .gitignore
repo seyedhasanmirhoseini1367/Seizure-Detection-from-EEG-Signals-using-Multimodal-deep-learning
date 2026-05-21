@@ -1,0 +1,56 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data & model artifacts
+*.pth
+*.pt
+*.npy
+*.parquet
+eeg_cache/
+checkpoints/
+results/
+wandb/
+wandb_key.txt
+*.log
+
+# Secrets
+.env
+*.env
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HMS / Kaggle competition work (separate project, not thesis)
+src/
+kaggle/
+kaggle_lstm/
+kaggle_fusion/
+kaggle_push/
+kaggle_logs/
+evaluation/
+create_kaggle_notebook.py
+push_to_kaggle.ps1
+.amlignore
+.kglignore
+cnn_transformer_best.pth
